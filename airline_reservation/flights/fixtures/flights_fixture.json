@@ -56,66 +56,6 @@
       "code": "VTZ"
     }
   },
-  {
-    "model": "flights.airport",
-    "pk": 5,
-    "fields": {
-      "name": "Indira Gandhi International Airport",
-      "city": "Delhi",
-      "country": "India",
-      "code": "DEL"
-    }
-  },
-  {
-    "model": "flights.airport",
-    "pk": 6,
-    "fields": {
-      "name": "Chennai International Airport",
-      "city": "Chennai",
-      "country": "India",
-      "code": "MAA"
-    }
-  },
-  {
-    "model": "flights.airport",
-    "pk": 7,
-    "fields": {
-      "name": "Netaji Subhas Chandra Bose International Airport",
-      "city": "Kolkata",
-      "country": "India",
-      "code": "CCU"
-    }
-  },
-  {
-    "model": "flights.airport",
-    "pk": 8,
-    "fields": {
-      "name": "Pune Airport",
-      "city": "Pune",
-      "country": "India",
-      "code": "PNQ"
-    }
-  },
-  {
-    "model": "flights.airport",
-    "pk": 9,
-    "fields": {
-      "name": "Jaipur International Airport",
-      "city": "Jaipur",
-      "country": "India",
-      "code": "JAI"
-    }
-  },
-  {
-    "model": "flights.airport",
-    "pk": 10,
-    "fields": {
-      "name": "Cochin International Airport",
-      "city": "Kochi",
-      "country": "India",
-      "code": "COK"
-    }
-  },
 
   {
     "model": "flights.flight",
@@ -136,13 +76,13 @@
     "model": "flights.flight",
     "pk": 2,
     "fields": {
-      "airline": 1,
-      "flight_number": "IF202",
-      "origin": 3,
-      "destination": 5,
-      "departure_time": "2025-12-05T09:00:00Z",
-      "arrival_time": "2025-12-05T12:00:00Z",
-      "base_price": "450.00",
+      "airline": 2,
+      "flight_number": "AI202",
+      "origin": 2,
+      "destination": 3,
+      "departure_time": "2025-12-05T07:00:00Z",
+      "arrival_time": "2025-12-05T09:00:00Z",
+      "base_price": "420.00",
       "total_seats": 12,
       "available_seats": 12
     }
@@ -151,45 +91,15 @@
     "model": "flights.flight",
     "pk": 3,
     "fields": {
-      "airline": 2,
-      "flight_number": "AI303",
-      "origin": 6,
-      "destination": 7,
-      "departure_time": "2025-12-06T07:00:00Z",
-      "arrival_time": "2025-12-06T09:30:00Z",
-      "base_price": "400.00",
-      "total_seats": 8,
-      "available_seats": 8
-    }
-  },
-  {
-    "model": "flights.flight",
-    "pk": 4,
-    "fields": {
-      "airline": 2,
-      "flight_number": "AI404",
-      "origin": 8,
-      "destination": 4,
-      "departure_time": "2025-12-07T06:00:00Z",
-      "arrival_time": "2025-12-07T08:30:00Z",
-      "base_price": "420.00",
-      "total_seats": 8,
-      "available_seats": 8
-    }
-  },
-  {
-    "model": "flights.flight",
-    "pk": 5,
-    "fields": {
       "airline": 1,
-      "flight_number": "IF505",
-      "origin": 9,
-      "destination": 10,
-      "departure_time": "2025-12-08T10:00:00Z",
-      "arrival_time": "2025-12-08T12:30:00Z",
+      "flight_number": "IF303",
+      "origin": 3,
+      "destination": 4,
+      "departure_time": "2025-12-06T11:00:00Z",
+      "arrival_time": "2025-12-06T13:00:00Z",
       "base_price": "380.00",
-      "total_seats": 10,
-      "available_seats": 10
+      "total_seats": 8,
+      "available_seats": 8
     }
   }
 ]

@@ -199,7 +199,7 @@ def user_signup(request):
             user = form.save()
             login(request, user)
             messages.success(request, 'Account created successfully!')
-            return redirect('home')
+            return redirect('login')
     else:
         form = CustomSignupForm()
     
